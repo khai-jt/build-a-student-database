@@ -542,3 +542,5 @@ chmod + x insert_data.sh
 chmod +x insert_data.sh
 cat insert_data.sh
 cat courses.csv
+ls --color=auto
+./insert_data.sh
