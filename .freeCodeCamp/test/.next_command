@@ -620,3 +620,4 @@ psql --username=freecodecamp --dbname=postgres
 declare -p IFS
 ./insert_data.sh
 ./insert_data.sh
+man psql
