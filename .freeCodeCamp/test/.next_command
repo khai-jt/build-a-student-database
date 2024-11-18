@@ -703,3 +703,4 @@ psql --username=freecodecamp --dbname=postgres
 ./insert_data.sh
 help let
 help test
+./insert_data.sh
