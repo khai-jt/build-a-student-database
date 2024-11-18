@@ -18,6 +18,7 @@ do
     INSERT_MAJOR_RESULT=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')")
 
     # get new major_id
+    echo $INSERT_MAJOR_RESULT
 
   fi
 
