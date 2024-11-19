@@ -17,8 +17,11 @@ do
       # insert major
       INSERT_MAJOR_RESULT=$($PSQL "INSERT INTO majors(major) VALUES('$MAJOR')")
       
-
       # get new major_id
+      if [[ $INSERT_MAJOR_RESULT == "INSERT 0 1" ]]
+      then
+        echo "Inserted into majors, $MAJOR"
+      fi
 
     fi
 
