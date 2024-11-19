@@ -34,12 +34,9 @@ do
     if [[ -z $COURSE_ID ]]
     then
       # insert course
+      INSERT_COURSE_RESULT=$($PSQL "INSERT INTO courses(course) VALUES('$COURSE')")
       # get new course_id
     fi
-
-    # insert course
-
-    # get new course_id
 
     # insert into majors_courses
 
