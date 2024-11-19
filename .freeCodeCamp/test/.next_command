@@ -777,3 +777,4 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 help let
 help test
+psql --username=freecodecamp --dbname=postgres
