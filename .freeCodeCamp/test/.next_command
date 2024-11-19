@@ -780,3 +780,4 @@ help test
 psql --username=freecodecamp --dbname=postgres
 ./insert_data.sh
 ./insert_data.sh
+./insert_data.sh
