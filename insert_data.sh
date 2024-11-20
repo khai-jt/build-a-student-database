@@ -57,3 +57,4 @@ cat students_test.csv | while IFS="," read FIRST LAST MAJOR GPA
 do
   echo $FIRST
 done
+
