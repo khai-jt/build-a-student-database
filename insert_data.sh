@@ -64,8 +64,8 @@ do
     if [[ -z $MAJOR_ID ]]
     then
       # set to null
+      
     fi
-    
     # insert student
   fi
 done
